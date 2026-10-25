@@ -40,7 +40,7 @@ Vision Transformer（简称ViT）由 **Alexey Dosovitskiy, Lucas Beyer, Alexande
 <img width="922" height="456" alt="image" src="https://github.com/user-attachments/assets/8a393f59-b61b-4d77-8398-5375abd751c0" />
 
 
-**具体网络细节**可以查看我的这篇文章：[Vision Transformer深入浅出]()
+**具体网络细节**可以查看我的这篇文章：[Vision Transformer深入浅出](https://blog.csdn.net/Eric005/article/details/168877195?fromshare=blogdetail&sharetype=blogdetail&sharerId=168877195&sharerefer=PC&sharesource=Eric005&sharefrom=from_link)
 
 **注意**：为降低训练开销、便于快速复现验证，本实现采用轻量化 Mini-ViT 配置（4层堆叠、128维特征、4头注意力），数据集使用 CIFAR-10 小型图像语料，但模型结构、注意力计算、位置编码、训练范式均严格对齐原论文标准。
 
